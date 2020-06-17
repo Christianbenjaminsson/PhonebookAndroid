@@ -2,6 +2,7 @@ package com.example.phonebook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -19,5 +20,6 @@ public class Login extends AppCompatActivity {
         linearLayout1 = new LinearLayout(getBaseContext());
         linearLayout1.setOrientation(LinearLayout.VERTICAL);
         textViewWelcome.setText("Welcome");
+        textViewWelcome.setTextColor(Color.argb(100, 0, 0, 0));
     }
 }
