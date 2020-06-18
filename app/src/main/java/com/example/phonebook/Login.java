@@ -21,5 +21,7 @@ public class Login extends AppCompatActivity {
         linearLayout1.setOrientation(LinearLayout.VERTICAL);
         textViewWelcome.setText("Welcome");
         textViewWelcome.setTextColor(Color.argb(100, 0, 0, 0));
+
+        linearLayout1.addView(textViewWelcome);
     }
 }
